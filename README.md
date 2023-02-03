@@ -17,7 +17,7 @@ Using a Database with the help of XAMPP
 simply running DemoApplication should allow the use of the Project using PostMan or any equivalent API platform
 
 #Games 
-CREATE TABLE `games` (
+"CREATE TABLE `games` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `categories` varchar(255) DEFAULT NULL,
   `developer` varchar(255) DEFAULT NULL,
@@ -25,7 +25,7 @@ CREATE TABLE `games` (
   `price` double DEFAULT NULL,
   `publisher` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
-)
+)"
 #Endpoints for Games
     "localhost:8080/store"
     #Both GET and POST use this endpoints

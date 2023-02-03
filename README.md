@@ -1,16 +1,23 @@
 # Java-Game-Store-Project
 
 #Gradle-Groovy Project
+
 #Java
+
 #Spring Boot version 3.0.2
+
 #Spring Boot Dependencies:
     Spring Web
     Spring Data JPA
     MySQL Driver
 #MySQL Database
+
 #Database managed using XAMPP
+
 #Database named "gamestore"
+
 Test Done with PostMan
+
 #Project allow managament of Games, Reviews for said games and User
 
 Using a Database with the help of XAMPP
@@ -87,6 +94,7 @@ returns all currently registered users on the database
     "surname":"user surname"
     }
     
+    
     "localhost:8080/store/update/{userId}"
 #PUT uses this path, in {userId}'s place should be the id of user you want to update,
  it needs a JSON payload with the attributes you want to update, like this:
@@ -95,6 +103,7 @@ returns all currently registered users on the database
       "name":"user name",
       "surname":"user surname"
       }
+      
       
     "localhost:8080/store/{userId}"
 
